@@ -1,0 +1,25 @@
+.Media {
+	display: flex;
+	align-items: flex-start;
+	border:1px black solid;
+}
+
+.Media-figure {
+	margin-right: 1em;
+	border:1px black solid;
+}
+
+.Media-body {
+	flex: 1;
+
+}
+.Grid {
+	border:1px solid black;
+	flex-wrap:wrap;
+	display: flex;
+}
+
+.Grid-cell {
+	flex: 1;
+	border:1px solid black;
+}
