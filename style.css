@@ -1,5 +1,37 @@
-.HolyGrail,
-.HolyGrail-body {
+
+.Media {
+	display: flex;
+	align-items: flex-start;
+	border:1px black solid;
+}
+
+.Media-figure {
+	margin-right: 1em;
+	border:1px black solid;
+}
+
+.Media-body {
+	flex: 1;
+
+}
+
+.Site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.Site-content {
+	flex: 1;
+}
+
+.gif{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.HolyGrail, .HolyGrail-body {
     display: flex;
     flex-direction: column;
 }
