@@ -1,37 +1,34 @@
-
 .Media {
-	display: flex;
-	align-items: flex-start;
-	border:1px black solid;
+    display: flex;
+    align-items: flex-start;
 }
 
 .Media-figure {
-	margin-right: 1em;
-	border:1px black solid;
+    margin-right: 1em;
 }
 
 .Media-body {
-	flex: 1;
-
+    flex: 1;
 }
 
 .Site {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .Site-content {
-	flex: 1;
+    flex: 1;
 }
 
-.gif{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+.gif {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.HolyGrail, .HolyGrail-body {
+.HolyGrail,
+.HolyGrail-body {
     display: flex;
     flex-direction: column;
 }
@@ -47,16 +44,16 @@
     }
     .HolyGrail-content {
         flex: 1;
-        border: solid 1px black;
         display: block;
         margin-left: auto;
-        margin-right: auto
+        margin-right: auto;
+        background-color: #E8E8E8;
     }
     .HolyGrail-nav,
     .HolyGrail-ads {
         /* 12em is the width of the columns */
         flex: 0 0 12em;
-        border: solid 1px black;
+        background-image: linear-gradient( darkgrey, #1D1F20);
     }
 }
 
@@ -65,15 +62,52 @@
     margin-left: auto;
     margin-right: auto
 }
-footer{
-    font-family: 'Coming Soon', cursive;
 
+footer {
+    font-family: 'Coming Soon', cursive;
+    background-color: #1D1F20;
+    color: white;
 }
-p{
-    font-family: 'Coming Soon', cursive;
 
+p {
+    font-family: 'Coming Soon', cursive;
 }
-body{
-    font-family: 'Coming Soon', cursive;
 
+body {
+    font-family: 'Coming Soon', cursive;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    background-color: #1D1F20;
+    background-image: linear-gradient(#1D1F20, darkgrey);
+}
+
+.tete {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: garamond, arial, sans-serif;
+    padding-top: 20px;
+}
+
+.signature {
+    color: white;
+    font-size: 20px;
+    font-family: garamond, arial, sans-serif;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.simplon {
+    margin-top: -90px;
+    padding-left: 60px;
+    padding-bottom: 30px;
 }
