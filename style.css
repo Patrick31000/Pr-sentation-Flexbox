@@ -66,7 +66,9 @@
 footer {
     font-family: 'Coming Soon', cursive;
     background-color: #1D1F20;
-    color: white;
+    color: silver;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 p {
@@ -94,6 +96,7 @@ header {
     font-weight: bold;
     font-family: garamond, arial, sans-serif;
     padding-top: 20px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .signature {
@@ -104,10 +107,101 @@ header {
     margin-right: 60px;
     margin-top: 40px;
     padding-bottom: 30px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .simplon {
     margin-top: -90px;
     padding-left: 60px;
     padding-bottom: 30px;
+}
+
+a:hover {
+    color: red;
+}
+
+.liens {
+    list-style: none;
+}
+
+a:visited {
+    text-shadow: 2px 2px 2px blue;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    color: #c3c6cc;
+}
+
+.ui-btn {
+    text-shadow: none;
+    text-align: center;
+}
+
+.Aligner {
+    border: solid 1px black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+    align-self: flex-end;
+}
+
+.gifs {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 50px;
+}
+
+.perceval {
+    width: auto;
+    height: auto;
+}
+
+.karadoc {
+    background-color: #1d1f20;
+}
+
+.buttonlink {
+    display: block;
+    border-style: solid;
+    border-color: #bbb #888 #666 #aaa;
+    border-width: 3px 4px 4px 3px;
+    width: 9em;
+    height: 2em;
+    background: #ccc;
+    color: #333;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 20px auto;
+    text-shadow: none;
+}
+
+.buttonlink:hover {
+    border-color: #666 #aaa #bbb #888;
+    border-width: 4px 3px 3px 4px;
+    color: #000;
 }
