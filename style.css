@@ -1,3 +1,4 @@
+
 .Media {
 	display: flex;
 	align-items: flex-start;
@@ -14,3 +15,53 @@
 
 }
 
+.Site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.Site-content {
+	flex: 1;
+}
+
+.gif{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.HolyGrail, .HolyGrail-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.HolyGrail-nav {
+    order: -1;
+}
+
+@media (min-width: 500px) {
+    .HolyGrail-body {
+        flex-direction: row;
+        flex: 1;
+    }
+    .HolyGrail-content {
+        flex: 1;
+        border: solid 1px black;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .HolyGrail-nav,
+    .HolyGrail-ads {
+        /* 12em is the width of the columns */
+        flex: 0 0 12em;
+        border: solid 1px black;
+    }
+}
+
+#iframe_container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
