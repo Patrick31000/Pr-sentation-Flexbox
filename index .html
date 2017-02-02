@@ -5,9 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <title>title</title>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+
 
 
 </head>
@@ -97,6 +98,43 @@
             <div class="Aligner-item Aligner-item--bottom"><strong>align-self: flex-end;</strong></div>
         </div>
     </div>
+
+    <div class="inputs">
+        <div class="input">
+            <span><strong>Input Add-ons :<br><br></strong></span> En raison de la façon dont le dimensionnement des entrées fonctionne en CSS, il est presque impossible d'ajouter ou d'ajouter un autre élément et de faire en sorte que le champ d'entrée
+            se comporte de manière fluide et occupe l'espace restant. Avec Flexbox, tous ces problèmes disparaissent, et le code est très simple. En outre, vous obtenez des champ de saisie et d'add-on de la même hauteur
+
+        </div>
+        <div class="Form">
+            <div class="InputAddOn">
+                <input class="InputAddOn-field">
+                <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-envelope"></span> 
+        </button> Add-on Appended
+            </div>
+
+            <!-- prepending -->
+            <div class="InputAddOn">
+                <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+                <input class="InputAddOn-field"> Add-on Prepended
+            </div>
+
+            <!-- both -->
+            <div class="InputAddOn">
+                <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-eye-open"></span>
+        </button>
+                <input class="InputAddOn-field">
+                <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-piggy-bank"></span> 
+        </button> Appended and Prepended Add-ons
+            </div>
+        </div>
+    </div>
+
+
     <footer>
         <div class="footer">
             <strong><span>Sticky Footer:</span><br>
