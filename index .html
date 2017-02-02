@@ -41,7 +41,9 @@
 
                         <div class="Media">
                             <img class="Media-figure" src="images/prof.png" alt="">
-                            <p class="Media-body">Crée des "media objects" divers sans se prendre la tête avec overflow, clearfix ou autres solutions utiles mais pas pratiques</p>
+                            <p class="Media-body">
+                                <strong><span>Media object :</span></strong><br><br> Flex peut créer des "media objects" divers sans se prendre la tête avec les plus classiques overflow, clearfix ou autres solutions parfois utiles mais souvent pas pratiques.
+                                Les emplacements du texte et de l'image peuvent être modifiés facilement sans toucher au html, et il est tout aussi simple d'intégrer un media object dans un autre "parent" que d'en créer un seul</p>
                         </div>
                     </div>
 
@@ -56,7 +58,7 @@
         </main>
         <nav class="HolyGrail-nav">
             <div class="nav">
-                <strong>Holy Grail Layout:</strong><br>
+                <strong><span>Holy Grail Layout:</span></strong><br>
                 <br> À la base, le Holy Grail Layout est une page avec un en-tête, un pied de page et trois colonnes.<br><br> Le Holy Grail Layout est un classique des problèmes avec CSS: l'objectif est avoir un centre fluide avec des barres latérales
                 de largeur fixe. La colonne centrale doit être chargée en premier dans le HTML et toutes les colonnes doivent être de la même hauteur.<br><br> Flexbox règle ce problème facilement !
             </div>
@@ -65,7 +67,7 @@
 
         </nav>
         <aside class="HolyGrail-ads">
-            <ul class="liens"><strong>Tutoriel :</strong><br><br>
+            <ul class="liens"><strong><span>Tutoriel :</span></strong><br><br>
                 <li><a href="http://www.supinfo.com/articles/single/1534-presentation-flexbox-template">Supinfo</a></li>
                 <li><a href="https://philipwalton.github.io/solved-by-flexbox/">Solved</a></li>
                 <li><a href="http://flex.simplon-lyon.fr/">Simplon Lyon</a></li>
@@ -76,7 +78,7 @@
                 <li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/Disposition_des_bo%C3%AEtes_flexibles_CSS/Utilisation_des_flexbox_en_CSS">MDN</a></li>
                 <li><a href="https://github.com/snapeuh/flexbox-presentation">Github</a></li>
             </ul>
-            <ul class="liens"><strong>Jeux :</strong><br><br>
+            <ul class="liens"><strong><span>Jeux :</span></strong><br><br>
                 <li><a href="http://cyrilvernier.net/teaching/draft/exercices-flexbox.html">Quelques exreçices</a></li>
                 <li><a href="http://flexboxfroggy.com/">MR CROA</a></li>
                 <li><a href="http://www.flexboxdefense.com/">Tower defense</a></li>
@@ -84,13 +86,16 @@
             </ul>
         </aside>
     </div>
-    <p>
-        Flex permet des alignements bien plus simples que le CSS 'classique', y compris le centrage vertical, habituellement un casse tête sans nom.
-    </p>
-    <div class="Aligner">
-        <div class="Aligner-item Aligner-item--top">align-self: flex-start;</div>
-        <div class="Aligner-item">justify-content: center;</div>
-        <div class="Aligner-item Aligner-item--bottom">align-self: flex-end;</div>
+    <div class="centrage">
+        <strong><span>Vertical Centering :</span></strong><br><br> Flex permet des alignements bien plus simples que le CSS 'classique', y compris le centrage vertical, habituellement un casse tête sans nom, avec des possibilités qui devraient théoriquement
+        fonctionner, mais finissent pas alourdir le code sans effet notable (voire, dans certains cas, cassent la moitié de la page). Flexbox aligne efficacement et proprement, que l'élément en question ait ou non des éléments siblings:<br><br>
+        <div class="Aligner">
+            <div class="Aligner-item Aligner-item--top">
+                <strong>align-self: flex-start;</strong>
+            </div>
+            <div class="Aligner-item"><strong>justify-content: center;</strong></div>
+            <div class="Aligner-item Aligner-item--bottom"><strong>align-self: flex-end;</strong></div>
+        </div>
     </div>
     <footer>
         <div class="footer">
@@ -100,6 +105,7 @@
                     <br> Flexbox répond parfaitement à ce type de problème. Bien que connus pour la pose horizontal, il fonctionne aussi bien pour la pose vertical. Tout ce que vous avez à faire est d'envelopper les sections verticales dans un conteneur flex et
                     de choisir ceux que vous souhaitez étendre. Ils prendront automatiquement tout l'espace disponible dans leur conteneur.</strong>
         </div>
+
     </footer>
 
 </body>
