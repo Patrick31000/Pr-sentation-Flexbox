@@ -1,6 +1,7 @@
 .Media {
     display: flex;
     align-items: flex-start;
+    padding-right: 10px;
 }
 
 .Media-figure {
@@ -53,7 +54,8 @@
     .HolyGrail-ads {
         /* 12em is the width of the columns */
         flex: 0 0 12em;
-        background-image: linear-gradient( darkgrey, #1D1F20);
+        background-image: linear-gradient( darkgrey, #8F8F90);
+        padding: 10px;
     }
 }
 
@@ -65,10 +67,11 @@
 
 footer {
     font-family: 'Coming Soon', cursive;
-    background-color: #1D1F20;
+    background-image: linear-gradient( #535455, #1D1F20);
     color: silver;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
+    padding: 10px;
 }
 
 p {
@@ -91,7 +94,7 @@ header {
 
 .tete {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     font-weight: bold;
     font-family: garamond, arial, sans-serif;
@@ -141,11 +144,13 @@ a {
 
 .Aligner {
     border: solid 1px black;
-    width: 100%;
+    width: 80%;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 100px;
+    color: white;
 }
 
 .Aligner-item {
@@ -204,4 +209,16 @@ h1 {
     border-color: #666 #aaa #bbb #888;
     border-width: 4px 3px 3px 4px;
     color: #000;
+}
+
+.centrage {
+    background-image: linear-gradient(#8F8F90, #535455);
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+span {
+    color: red;
 }
