@@ -2,6 +2,7 @@
     display: flex;
     align-items: flex-start;
     padding-right: 10px;
+    padding-top: 10px;
 }
 
 .Media-figure {
@@ -93,7 +94,8 @@ header {
 }
 
 .tete {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 70px;
     color: white;
     font-weight: bold;
@@ -106,7 +108,8 @@ header {
     color: white;
     font-size: 20px;
     font-family: garamond, arial, sans-serif;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;    
     margin-right: 60px;
     margin-top: 40px;
     padding-bottom: 30px;
@@ -139,7 +142,8 @@ a {
 
 .ui-btn {
     text-shadow: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .Aligner {
@@ -171,7 +175,8 @@ a {
 }
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     color: white;
     padding-bottom: 100px;
     padding-top: 50px;
@@ -198,7 +203,8 @@ h1 {
     background: #ccc;
     color: #333;
     line-height: 2;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     font-weight: 900;
     margin: 20px auto;
