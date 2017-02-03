@@ -37,6 +37,7 @@
 
 .HolyGrail-nav {
     order: -1;
+    color: white;
 }
 
 @media (min-width: 500px) {
